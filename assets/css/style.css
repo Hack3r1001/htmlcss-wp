@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("../img/bodybg.png");
+  font-family: sans-serif;
+}
+p{
+  font-size: 13px;
+}
+.titles{
+  padding-bottom: 15px;
+  color: rgba(103, 68, 22, 0.92)
+}
+.container{
+  width: 50vw;
+  margin: auto;
+}
+header{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.fotocontainer{
+  background-image: url("../img/headerbg.jpg");
+  background-size: cover;
+  height: 200px;
+  border: 5px white solid;
+  position: relative;
+  text-align: center;
+}
+.fototitle{
+  color: white;
+  border: 5px solid white;
+  padding: 10px;
+  margin: 20px;
+  position: absolute;
+  top: 40%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+.wordfoto{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  padding-bottom: 10px;
+}
+.navbar{
+  background-color: gray;
+  width: 100%;
+}
+.navbar ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+.navbar ul:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar li{
+  float: left;
+  width: 14.28%;
+  text-align: center;
+}
+.navbar a{
+  font-size: 12px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+}
+.navbar a:hover{
+  background-color: white;
+  color: black;
+}
+main{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.floatcontainer{
+  height: 700px;
+}
+.floatcontainer:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.floatcontainer *{
+  border-radius: 5px;
+}
+.feedpagina{
+  float: left;
+  width: 20%;
+  background-color: white;
+  padding: 10px;
+}
+.feedpaginasite{
+  padding: 10px;
+}
+.feedpaginasite a{
+  text-decoration: none;
+  color: green;
+}
+.feedpaginasite a p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contenutoprincipale{
+  float: left;
+  width: 50%;
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+}
+.widget{
+  float: left;
+  width: 20%;
+  position: relative;
+}
+.wid{
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+footer{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+  text-align: center;
+  color: gray;
+}
+.sociallogo{
+  display: inline-block;
+  padding: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 30px;
+}
+.sociallogo a{
+  text-decoration: none;
+  color: inherit;
+}
+.sociallogo a:hover{
+  color: blue;
+}
